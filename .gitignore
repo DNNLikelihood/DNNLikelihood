@@ -6,6 +6,8 @@
 *.toc
 *.pack
 *.h5
+*.onnx
 *checkpoint.ipynb
 .DS_Store
 .vscode/settings.json
+Data_samples/*.pickle
