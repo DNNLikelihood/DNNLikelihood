@@ -1,2 +1,2 @@
 # DNNLikelihood
-Code used in the paper 1911.xxxx
+Code and results for the paper 1911.xxxx
