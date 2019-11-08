@@ -22,57 +22,52 @@ def download_file(url, filename):
 
     
 download_file(
-    'https://cernbox.cern.ch/index.php/s/vyhK4gqydxQd8cA/download',
+    'https://cernbox.cern.ch/index.php/s/kMDliPvcwARENeI/download',
     'pseudo_experiments_1000.pickle'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/ZnUjrfRWP7Szsxa/download',
+    'https://cernbox.cern.ch/index.php/s/ukTV5NiWbVFMcDJ/download',
     'likelihood_unbiased_sm_13_thinned1000_11M.pickle'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/nUFpwKyPJcv1N1R/download',
+    'https://cernbox.cern.ch/index.php/s/yLDAFRcH6heeGUx/download',
     'likelihood_mixed_sm_13_thinned1000_11M.pickle'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/TWY9vgF0JUdYYrz/download',
+    'https://cernbox.cern.ch/index.php/s/TGiq7Z987gSfgV4/download',
     'likelihood_biased_gm_11M.pickle'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/dNdlGbWSgd5rY2v/download',
+    'https://cernbox.cern.ch/index.php/s/7uMinOngamBG1vu/download',
     'DNNLikelihood_F3.pickle'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/hiWaikQVyWWJap0/download',
+    'https://cernbox.cern.ch/index.php/s/n9EqXg4h0NHDp5T/download',
     'DNNLikelihood_F2.pickle'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/qpypdBpD7lszN9a/download',
+    'https://cernbox.cern.ch/index.php/s/Yfj9kuIjGCpFtsT/download',
     'DNNLikelihood_F1.pickle'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/fG98ETHgn7vc94n/download',
-    'DNNLikelihood_B4.pickle'
-)
-
-download_file(
-    'https://cernbox.cern.ch/index.php/s/jgTEY7eU3wGddvV/download',
+    'https://cernbox.cern.ch/index.php/s/Yfj9kuIjGCpFtsT/download',
     'DNNLikelihood_B3.pickle'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/EzbMUEU8CtXr8ge/download',
+    'https://cernbox.cern.ch/index.php/s/woSYbbwNWzlcygQ/download',
     'DNNLikelihood_B2.pickle'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/iUtbYo6rRFLyHMH/download',
+    'https://cernbox.cern.ch/index.php/s/nb85TAKf1ibt0rB/download',
     'DNNLikelihood_B1.pickle'
 )
 

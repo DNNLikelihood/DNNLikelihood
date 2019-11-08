@@ -22,62 +22,62 @@ def download_file(url, filename):
 
     
 download_file(
-    'https://cernbox.cern.ch/index.php/s/wHU4jI10rBp3Aj3/download',
+    'https://cernbox.cern.ch/index.php/s/UBZT8CXm99s9G4r/download',
     'F3_model.onnx'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/4bcAE42DHF8Iq7u/download',
+    'https://cernbox.cern.ch/index.php/s/oURF0Wk7NeU8USn/download',
     'F3_model.h5'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/KsjuU49dRHTuNLc/download',
+    'https://cernbox.cern.ch/index.php/s/NUoeWaYxrBfA2nY/download',
     'F2_model.onnx'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/or6QGHF859jkOws/download',
+    'https://cernbox.cern.ch/index.php/s/H9sPy3p7i7UWzOl/download',
     'F2_model.h5'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/08tBo9T7SxQQ5jA/download',
+    'https://cernbox.cern.ch/index.php/s/ytxdUMUXCimky8q/download',
     'F1_model.onnx'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/Odom3T8v672rXbf/download',
+    'https://cernbox.cern.ch/index.php/s/3emEYmtzYJOKO1H/download',
     'F1_model.h5'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/njyojL1wBRMi9D3/download',
+    'https://cernbox.cern.ch/index.php/s/s7eHfcskW1B3WEF/download',
     'B3_model.onnx'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/OlAUv5HxTveDG6Y/download',
+    'https://cernbox.cern.ch/index.php/s/z5D1CZztiVjZeGR/download',
     'B3_model.h5'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/xdsaP9Mxbp5vhtU/download',
+    'https://cernbox.cern.ch/index.php/s/aqTNBfvvqSrVq1c/download',
     'B2_model.onnx'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/ruqdvRW1ksEAgw3/download',
+    'https://cernbox.cern.ch/index.php/s/KhiZVoIwjyxHge8/download',
     'B2_model.h5'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/08O2KGUYqlt0jm8/download',
+    'https://cernbox.cern.ch/index.php/s/fc7RN1bdVUxqTVA/download',
     'B1_model.onnx'
 )
 
 download_file(
-    'https://cernbox.cern.ch/index.php/s/jAQcjB48osfkRhC/download',
+    'https://cernbox.cern.ch/index.php/s/XKZzh4nr0LZKXPd/download',
     'B1_model.h5'
 )
 
