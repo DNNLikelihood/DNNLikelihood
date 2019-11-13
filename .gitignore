@@ -11,3 +11,4 @@
 .DS_Store
 .vscode/settings.json
 Data_samples/*.pickle
+paper/*
