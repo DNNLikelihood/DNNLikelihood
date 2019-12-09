@@ -20,7 +20,6 @@ def download_file(url, filename):
     file.close()
     print ("File "+filename+" of size "+file_size(filename)+" downloaded in "+os.getcwd())
 
-    
 download_file(
     'https://cernbox.cern.ch/index.php/s/kMDliPvcwARENeI/download',
     'pseudo_experiments_1000.pickle'
