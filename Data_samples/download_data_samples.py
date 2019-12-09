@@ -20,7 +20,6 @@ def download_file(url, filename):
     file.close()
     print ("File "+filename+" of size "+file_size(filename)+" downloaded in "+os.getcwd())
 
-
 file_list = ["DNNLikelihood_B1", "DNNLikelihood_B2",
              "DNNLikelihood_B3", "DNNLikelihood_F1", 
              "DNNLikelihood_F2", "DNNLikelihood_F3", 
@@ -30,6 +29,6 @@ file_list = ["DNNLikelihood_B1", "DNNLikelihood_B2",
 
 for file in file_list:
     download_file(
-        "https://sandbox.zenodo.org/record/429558/files/"+file+".pickle?download=1",
+        "https://zenodo.org/record/3567822/files/"+file+".pickle?download=1",
         file+".pickle"
     )

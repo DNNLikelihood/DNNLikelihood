@@ -28,6 +28,6 @@ file_list = ["B1_model", "B2_model",
 for extension in [".h5", ".onnx"]:
     for file in file_list:
         download_file(
-            "https://sandbox.zenodo.org/record/429558/files/"+file+extension+"?download=1",
+            "https://zenodo.org/record/3567822/files/"+file+extension+"?download=1",
             file+extension
         )
