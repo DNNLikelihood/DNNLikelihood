@@ -20,61 +20,16 @@ def download_file(url, filename):
     file.close()
     print ("File "+filename+" of size "+file_size(filename)+" downloaded in "+os.getcwd())
 
-download_file(
-    'https://cernbox.cern.ch/index.php/s/kMDliPvcwARENeI/download',
-    'pseudo_experiments_1000.pickle'
-)
 
-download_file(
-    'https://cernbox.cern.ch/index.php/s/ukTV5NiWbVFMcDJ/download',
-    'likelihood_unbiased_sm_13_thinned1000_11M.pickle'
-)
+file_list = ["DNNLikelihood_B1", "DNNLikelihood_B2",
+             "DNNLikelihood_B3", "DNNLikelihood_F1", 
+             "DNNLikelihood_F2", "DNNLikelihood_F3", 
+             "likelihood_biased_gm_11M", "likelihood_mixed_sm_13_thinned1000_11M",
+             "likelihood_unbiased_sm_13_thinned1000_11M", "pseudo_experiments_hybrid",
+             "pseudo_experiments_profile"]
 
-download_file(
-    'https://cernbox.cern.ch/index.php/s/yLDAFRcH6heeGUx/download',
-    'likelihood_mixed_sm_13_thinned1000_11M.pickle'
-)
-
-download_file(
-    'https://cernbox.cern.ch/index.php/s/TGiq7Z987gSfgV4/download',
-    'likelihood_biased_gm_11M.pickle'
-)
-
-download_file(
-    'https://cernbox.cern.ch/index.php/s/7uMinOngamBG1vu/download',
-    'DNNLikelihood_F3.pickle'
-)
-
-download_file(
-    'https://cernbox.cern.ch/index.php/s/n9EqXg4h0NHDp5T/download',
-    'DNNLikelihood_F2.pickle'
-)
-
-download_file(
-    'https://cernbox.cern.ch/index.php/s/Yfj9kuIjGCpFtsT/download',
-    'DNNLikelihood_F1.pickle'
-)
-
-download_file(
-    'https://cernbox.cern.ch/index.php/s/Yfj9kuIjGCpFtsT/download',
-    'DNNLikelihood_B3.pickle'
-)
-
-download_file(
-    'https://cernbox.cern.ch/index.php/s/woSYbbwNWzlcygQ/download',
-    'DNNLikelihood_B2.pickle'
-)
-
-download_file(
-    'https://cernbox.cern.ch/index.php/s/nb85TAKf1ibt0rB/download',
-    'DNNLikelihood_B1.pickle'
-)
-
-
-
-
-
-
-
-
-
+for file in file_list:
+    download_file(
+        "https://sandbox.zenodo.org/record/429558/files/"+file+".pickle?download=1",
+        file+".pickle"
+    )

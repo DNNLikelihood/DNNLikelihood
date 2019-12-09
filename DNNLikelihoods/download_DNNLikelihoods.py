@@ -20,72 +20,14 @@ def download_file(url, filename):
     file.close()
     print ("File "+filename+" of size "+file_size(filename)+" downloaded in "+os.getcwd())
 
-    
-download_file(
-    'https://cernbox.cern.ch/index.php/s/UBZT8CXm99s9G4r/download',
-    'F3_model.onnx'
-)
 
-download_file(
-    'https://cernbox.cern.ch/index.php/s/oURF0Wk7NeU8USn/download',
-    'F3_model.h5'
-)
+file_list = ["B1_model", "B2_model",
+             "B3_model", "F1_model"
+             "F2_model", "F3_model"]
 
-download_file(
-    'https://cernbox.cern.ch/index.php/s/NUoeWaYxrBfA2nY/download',
-    'F2_model.onnx'
-)
-
-download_file(
-    'https://cernbox.cern.ch/index.php/s/H9sPy3p7i7UWzOl/download',
-    'F2_model.h5'
-)
-
-download_file(
-    'https://cernbox.cern.ch/index.php/s/ytxdUMUXCimky8q/download',
-    'F1_model.onnx'
-)
-
-download_file(
-    'https://cernbox.cern.ch/index.php/s/3emEYmtzYJOKO1H/download',
-    'F1_model.h5'
-)
-
-download_file(
-    'https://cernbox.cern.ch/index.php/s/s7eHfcskW1B3WEF/download',
-    'B3_model.onnx'
-)
-
-download_file(
-    'https://cernbox.cern.ch/index.php/s/z5D1CZztiVjZeGR/download',
-    'B3_model.h5'
-)
-
-download_file(
-    'https://cernbox.cern.ch/index.php/s/aqTNBfvvqSrVq1c/download',
-    'B2_model.onnx'
-)
-
-download_file(
-    'https://cernbox.cern.ch/index.php/s/KhiZVoIwjyxHge8/download',
-    'B2_model.h5'
-)
-
-download_file(
-    'https://cernbox.cern.ch/index.php/s/fc7RN1bdVUxqTVA/download',
-    'B1_model.onnx'
-)
-
-download_file(
-    'https://cernbox.cern.ch/index.php/s/XKZzh4nr0LZKXPd/download',
-    'B1_model.h5'
-)
-
-
-
-
-
-
-
-
-
+for extension in [".h5", ".onnx"]:
+    for file in file_list:
+        download_file(
+            "https://sandbox.zenodo.org/record/429558/files/"+file+extension+"?download=1",
+            file+extension
+        )
