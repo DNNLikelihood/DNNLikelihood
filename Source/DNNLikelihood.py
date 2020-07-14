@@ -13,6 +13,7 @@ from timeit import default_timer as timer
 import ipywidgets as widgets
 import joblib
 import keras
+import matplotlib
 import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set()
@@ -1698,11 +1699,11 @@ def plot_corners(ilist, nbins, samp1, samp2, w1=None, w2=None, levels1=None, lev
     if ilist[0] == 0:
         labels = ['$\mu$']
         for i in ilist[1:]:
-            labels = np.append(labels, ['$\delta_{'+str(i+1)+'}$'])
+            labels = np.append(labels, ['$\delta_{'+str(i)+'}$'])
     else:
         labels = ['$\delta_{'+str(ilist[0])+'}$']
         for i in ilist[1:]:
-            labels = np.append(labels, ['$\delta_{'+str(i+1)+'}$'])
+            labels = np.append(labels, ['$\delta_{'+str(i)+'}$'])
     fig, axes = plt.subplots(nndim, nndim, figsize=(3*nndim, 3*nndim))
     figure1 = corner(samp1, bins=nbins, weights=w1, labels=[r"%s" % s for s in labels], fig=fig, max_n_ticks=6, color=color1, plot_contours=True, smooth=True, smooth1d=True, range=ranges, plot_datapoints=True, plot_density=False, fill_contours=False, normalize1d=True,
                      hist_kwargs={'color': color1, 'linewidth': '1.5'}, label_kwargs={'fontsize': 16}, show_titles=False, title_kwargs={"fontsize": 18}, levels_lists=levels1, data_kwargs={"alpha": 1}, contour_kwargs={"linestyles": ["dotted", "dashdot", "dashed"][:len(HPI_intervals1[0])], "linewidths": [linewidth, linewidth, linewidth][:len(HPI_intervals1[0])]},
